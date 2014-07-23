@@ -1712,7 +1712,7 @@ c}}}
 
 \def\p@thanks#1{\footnotemark
   \protected@xdef\@thanks{\@thanks
-    \protect{\noindent$\m@th^\thefootnote$‾#1\protect\par}}}
+    \protect{\noindent$\m@th^\thefootnote$~#1\protect\par}}}
 
 
 
@@ -3461,8 +3461,8 @@ Keywords:\hskip.5em%
 \def\fps@figure{tbp}
 \def\ftype@figure{1}
 \def\ext@figure{lof}
-\def\fnum@figure{\figurename‾\thefigure}
-\def\fnum@efigure{Fig.‾\thefigure}
+\def\fnum@figure{\figurename~\thefigure}
+\def\fnum@efigure{Fig.~\thefigure}
 \newenvironment{figure}
                {\@floatenv
 %                \if@tecrep
@@ -3485,8 +3485,8 @@ Keywords:\hskip.5em%
 \def\fps@table{tbp}
 \def\ftype@table{2}
 \def\ext@table{lot}
-\def\fnum@table{\tablename‾\thetable}
-\def\fnum@etable{Table‾\thetable}
+\def\fnum@table{\tablename~\thetable}
+\def\fnum@etable{Table~\thetable}
 \newenvironment{table}
                {\@floatenv
 %                \if@tecrep
@@ -4685,8 +4685,8 @@ Keywords:\hskip.5em%
 \def\fps@figure{tbp}
 \def\ftype@figure{1}
 \def\ext@figure{lof}
-\def\fnum@figure{\figurename‾\thefigure}
-\def\fnum@table{\tablename‾\thetable}
+\def\fnum@figure{\figurename~\thefigure}
+\def\fnum@table{\tablename~\thetable}
 %\@addtoreset{equation}{section}
 %\@addtoreset{figure}{section}
 %\@addtoreset{table}{section}
@@ -4851,15 +4851,15 @@ Keywords:\hskip.5em%
 %==================================================================================================
 
 
-\def\long@fig{\ifDS@english {Figure‾\nobreak}\else {\figurename‾\nobreak}\fi}
-\def\short@fig{\ifDS@english {Fig.\,\nobreak}\else {\figurename‾\nobreak}\fi}
-\def\long@figs{\ifDS@english {Figures‾\nobreak}\else {\figurename‾\nobreak}\fi}
-\def\short@figs{\ifDS@english {Figs.\,\nobreak}\else {\figurename‾\nobreak}\fi}
+\def\long@fig{\ifDS@english {Figure~\nobreak}\else {\figurename~\nobreak}\fi}
+\def\short@fig{\ifDS@english {Fig.\,\nobreak}\else {\figurename~\nobreak}\fi}
+\def\long@figs{\ifDS@english {Figures~\nobreak}\else {\figurename~\nobreak}\fi}
+\def\short@figs{\ifDS@english {Figs.\,\nobreak}\else {\figurename~\nobreak}\fi}
 
-\def\long@tab{\ifDS@english {Table‾}\else {\tablename‾\nobreak}\fi}
-\def\short@tab{\ifDS@english {Table‾}\else {\tablename‾\nobreak}\fi}
-\def\long@tabs{\ifDS@english {Tables‾}\else {\tablename‾\nobreak}\fi}
-\def\short@tabs{\ifDS@english {Tables‾}\else {\tablename‾\nobreak}\fi}
+\def\long@tab{\ifDS@english {Table~}\else {\tablename~\nobreak}\fi}
+\def\short@tab{\ifDS@english {Table~}\else {\tablename~\nobreak}\fi}
+\def\long@tabs{\ifDS@english {Tables~}\else {\tablename~\nobreak}\fi}
+\def\short@tabs{\ifDS@english {Tables~}\else {\tablename~\nobreak}\fi}
 
 
 
